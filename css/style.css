@@ -1,0 +1,123 @@
+		/*GENERAL BEGIN*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border-radius: 1px;
+}
+
+label {
+	color: #666;
+}
+		/*HEADER*/
+#header {
+	position: absolute;
+	height: 15%;
+	width: 100%;
+	background-color: #3b5998;
+	margin-bottom: 40px;
+}
+
+.logo {
+	margin-left: 5%;
+	position: absolute;
+	width: 15%;
+	height: 70%;
+}
+
+.btn {
+	padding: 6px 7px;
+	background-color: #67a54b;
+	color:#fff;
+	font-weight: 700;
+	border: 1px solid #3b6e22;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	width:5%;
+	height:auto;
+}
+
+		/*MAIN*/
+main {	
+	height: auto;
+	width: 40%;
+	margin-right:10%;
+	margin-left:10%;
+	position: absolute;
+	border: 1px #ccc solid;
+	border-radius: 5px;
+	margin-top:10%;
+	left: 20%;
+	padding-bottom: 2%;
+}
+
+form {
+	transform: translateX(20%);
+}
+
+.main-title {
+	color: #1c2a47;
+	padding-left: 20px;
+	font-size: 25px;
+}
+
+.main-title::after {
+	content: '';
+	width: 95%;
+	height: 1px;
+	background-color: #ccc;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 40px;	
+}
+
+.form-group__title {
+	padding-right: 6px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.checkbox-title{
+	font-size: 12px;
+}
+
+.btn1 {
+	background-color: #5972a7;
+	padding: 7px 5px;
+	border:1px solid #29447e;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 5%
+	margin-top: 10px;
+}
+
+span {
+	font-size: 13px;
+}
+
+.sing {
+	font-weight: 700;
+	color:#3b5998;
+	font-size: 13px;
+}
+
+.forgot {
+	color: #4d5e98;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+		/*MEDIA*/
+
